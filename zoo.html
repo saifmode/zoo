@@ -15,7 +15,7 @@
        <a href="javascript:(function(){let expanders = document.querySelectorAll('span.collapsed > a');if(!expanders.length){expanders=document.querySelectorAll('span.expanded>a')};expanders.forEach(expander =>{expander.click();});})();">Expand/Collapse All</a> - Use on Core page
      </li>
      <li>
-       <a href="javascript:(function(){let cpst = document.getElementById('id_characters_per_second_threshold');let cpsh = document.getElementById('id_characters_per_second_headroom');let wpmt = document.getElementById('id_words_per_minute_threshold');let wpmh = document.getElementById('id_words_per_minute_headroom');let cpl = document.getElementById('id_characters_per_line_threshold');cpst.value = 30;cpsh.value = 0;wpmt.value = 400;wpmh.value = 0;cpl.value = 42;})();">Netflix Default Reading Speed</a> - Use after you click Edit Stream on language level on subs
+       <a href="javascript:(function(){let cpst = document.getElementById('id_characters_per_second_threshold');let cpsh = document.getElementById('id_characters_per_second_headroom');let wpmt = document.getElementById('id_words_per_minute_threshold');let wpmh = document.getElementById('id_words_per_minute_headroom');let cpl = document.getElementById('id_characters_per_line_threshold');cpst.value = 30;cpsh.value = 0;wpmt.value = 400;wpmh.value = 0;cpl.value = 42;document.getElementById('stream-dialog-save').click()})();">Netflix Default Reading Speed</a> - Use after you click Edit Stream on language level on subs
      </li>
    </ul>
  </body> 
